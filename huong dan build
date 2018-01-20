@@ -1,0 +1,15 @@
+1.chinh sua makefile
+
+TIVAWARE_PATH = $(HOME)/Embedded/tivaware
+
+2.build chuong trinh
+
+cd [thu muc code]
+
+export PATH=$PATH:$HOME/Embedded/gcc-arm-none-eabi-5_4-2016q3/bin
+
+make
+
+3.nap xuong kit
+
+sudo ./lm4flash ~/[tro den thu muc chua file main.bin]
